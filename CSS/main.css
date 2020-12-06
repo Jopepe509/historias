@@ -1,0 +1,133 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+
+.barra-principal {
+    background-color: black;
+    margin-top: -4px;
+    height: 60px;
+    width: 100%;
+}
+
+.nome {
+    color: gold;
+    width: 60%;
+    float: left;
+    font-size: 9px;
+    font-family: cursive;
+    margin-left: 60px;
+    text-transform: uppercase;
+    padding-top: 4px;
+}
+
+.menu {
+    padding-top: 15px;
+    float: right;
+    margin-right: 120px;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: black;
+    margin-left: 15px;
+    height: 50px;
+}
+
+.menu ul {
+    text-align: center;
+    margin: 1px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu ul li a:hover {
+    color: gold;
+    
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: normal;
+}
+
+.url-busca {
+    height: 40px;
+    width: 100%;
+    background-color: whitesmoke;
+    margin-top: -14px;
+}
+
+ul {
+    padding: 0px!important;
+}
+
+.menu-url {
+    text-transform: uppercase;
+    margin-left: 40px;
+    width: 60%;
+}
+
+.menu-url a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-url a:hover {
+    color: gold;
+}
+
+.menu-url ul li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.busca {
+    float: right;
+    margin-top: -35px;
+    margin-right: 120px;
+}
+
+.busca .submit {
+    width: 23px;
+    float: right;
+    border: whitesmoke;
+    margin-top: 1px;
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+.busca .submit:hover {
+    border: whitesmoke;
+}
+
+.busca .submit input {
+    background-image: url(../IMG/icone-search.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.livro {
+    background-color: white;
+    width: 80%;
+    height: 450px;
+    border: 3px solid blue;
+    margin-left: 150px;
+    border-radius: 2%;
+    margin-top: 35px;
+}
+
+.texto {
+    font-size: 10px;
+    font-family: cursive;
+    margin-top: -15px;
+    text-align: center;
+}
