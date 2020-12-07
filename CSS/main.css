@@ -118,7 +118,7 @@ ul {
 .livro {
     background-color: white;
     width: 80%;
-    height: 450px;
+    height: 300px;
     border: 3px solid blue;
     margin-left: 150px;
     border-radius: 2%;
@@ -130,4 +130,87 @@ ul {
     font-family: cursive;
     margin-top: -15px;
     text-align: center;
+}
+
+.l1 {
+    float: left;
+    margin-left: 20px;
+}
+
+.l1 h1:hover {
+    color: blue;
+}
+
+.l1 h1 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.l1 a {
+    font-size: 19px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: start;
+}
+
+.l1 a:hover {
+    color: goldenrod;
+}
+
+.l2 {
+    float: left;
+    margin-left: 140px;
+}
+
+.l2 h1:hover {
+    color: blue;
+}
+
+.l2 h1 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: cursive;
+    margin-left: 90px;
+}
+
+.l2 a {
+    font-size: 19px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.l2 a:hover {
+    color: goldenrod;
+}
+
+.l3 {
+    float: right;
+    margin-right: 60px;
+}
+
+.l3 h1:hover {
+    color: blue;
+}
+
+.l3 h1 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: cursive;
+    margin-right: 30px;
+}
+
+.l3 a {
+    font-size: 19px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.l3 a:hover {
+    color: goldenrod;
 }
