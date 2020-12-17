@@ -64,7 +64,7 @@ body {
 }
 
 .url-busca {
-    height: 40px;
+    height: 50px;
     width: 100%;
     background-color: whitesmoke;
     margin-top: -14px;
@@ -75,49 +75,50 @@ ul {
 }
 
 .menu-url {
-    text-transform: uppercase;
-    margin-left: 40px;
     width: 60%;
+    height: 40px;
+    font-family: Arial;
 }
 
-.menu-url a {
-    text-decoration: none;
-    color: black;
-}
-
-.menu-url a:hover {
-    color: gold;
+.menu-url ul {
+    list-style: none;
+    position: relative;
 }
 
 .menu-url ul li {
-    display: inline-block;
-    margin-left: 20px;
-    margin-top: 10px;
+    width: 150px;
+    float: left;
 }
 
-.busca {
-    float: right;
-    margin-top: -35px;
-    margin-right: 120px;
-}
-
-.busca .submit {
-    width: 23px;
-    float: right;
-    border: whitesmoke;
-    margin-top: 1px;
-    cursor: pointer;
+.menu-url a {
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
     background-color: whitesmoke;
+    color: black;
 }
 
-.busca .submit:hover {
-    border: whitesmoke;
+.menu-url ul ul {
+    position: absolute;
+    visibility: hidden;
 }
 
-.busca .submit input {
-    background-image: url(../IMG/icone-search.png);
-    background-repeat: no-repeat;
-    background-position: right;
+.menu-url ul li:hover ul {
+    visibility: visible;
+}
+
+.menu-url a:hover {
+    color: blue;
+}
+
+.menu-url ul ul li {
+    float: right;
+    border-bottom: 2px solid white;
+}
+
+.menu-url ul ul li a {
+    background-color: rgb(185, 185, 236);
 }
 
 .livro {
