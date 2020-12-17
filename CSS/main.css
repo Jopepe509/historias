@@ -241,6 +241,11 @@ ul {
     text-align: center;
 }
 
+.sobre-nos h1:hover {
+    color: goldenrod;
+    cursor: copy;
+}
+
 .sobre-nos p {
     text-align: center;
     font-size: 20px;
